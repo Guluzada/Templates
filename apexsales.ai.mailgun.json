@@ -39,6 +39,12 @@
       "host": "email.mg",
       "pointsTo": "mailgun.org",
       "ttl": 3600
+    },
+    {
+      "type": "TXT",
+      "host": "_dmarc.mg",
+      "data": "v=DMARC1; p=none;",
+      "ttl": 3600
     }
   ]
 }
